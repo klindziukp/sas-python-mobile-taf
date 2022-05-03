@@ -9,10 +9,22 @@
 *.tar.gz
 *.rar
 
+# Build
+build
+build/allure-report
+build/allure-results
+
 # pytest
 .pytest_cache
 aaold
 test/.pytest_cache
+config/__pycache__
+factory/__pycache__
+logger/__pycache__
+test/__pycache__
+pageobject/__pycache__
+util__pycache__
+
 venv
 
 # macOS directory cache

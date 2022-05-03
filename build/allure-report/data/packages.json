@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.test_suite_smoke",
+    "children" : [ {
+      "name" : "test_open_main_page",
+      "uid" : "b80c232f3e0cbbbc",
+      "parentUid" : "da93a3efd454a16c7c4ffda120d3dc73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651565223878,
+        "stop" : 1651565229416,
+        "duration" : 5538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_open_main_page_second",
+      "uid" : "d3dafac61ffe5b34",
+      "parentUid" : "da93a3efd454a16c7c4ffda120d3dc73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651565234157,
+        "stop" : 1651565239725,
+        "duration" : 5568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.test_suite_smoke"
+  } ]
+}

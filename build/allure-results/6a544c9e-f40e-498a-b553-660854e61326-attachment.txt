@@ -1,0 +1,7 @@
+[32mINFO    [0m test.conftest:conftest.py:18 Running class set up
+[32mINFO    [0m test.conftest:conftest.py:10 Running method level set up
+[32mINFO    [0m pageobject.base_page:base_page.py:16 Clicking on element with locator: uk.co.aifactory.chessfree:id/YesButton
+[32mINFO    [0m pageobject.base_page:base_page.py:16 Clicking on element with locator: uk.co.aifactory.chessfree:id/ButtonPlay
+[32mINFO    [0m test.conftest:conftest.py:12 Running method level tear down
+[32mINFO    [0m test.conftest:conftest.py:28 Running class tear down
+[32mINFO    [0m test.conftest:conftest.py:36 Running suite tear down

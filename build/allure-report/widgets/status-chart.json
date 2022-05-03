@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d3dafac61ffe5b34",
+  "name" : "test_open_main_page_second",
+  "time" : {
+    "start" : 1651565234157,
+    "stop" : 1651565239725,
+    "duration" : 5568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b80c232f3e0cbbbc",
+  "name" : "test_open_main_page",
+  "time" : {
+    "start" : 1651565223878,
+    "stop" : 1651565229416,
+    "duration" : 5538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
