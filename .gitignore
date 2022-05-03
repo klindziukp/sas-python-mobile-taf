@@ -1,0 +1,45 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+
+# Package Files #
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# pytest
+.pytest_cache
+aaold
+test/.pytest_cache
+
+venv
+
+# macOS directory cache
+.DS_Store
+
+
+**/*META-INF/epic.version
+
+.idea/
+
+# allure files
+.allure
+allure-results
+
+**/node_modules/*
+**/.aws-sam/*
+
+# Substrate
+deploy/terraform/*.hcl
+.terraform*
+deploy/terraform/builds/*
+
+# Miscellaneous
+.vscode*
