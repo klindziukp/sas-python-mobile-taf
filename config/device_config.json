@@ -1,0 +1,6 @@
+{
+    "platformName": "Android",
+    "platformVersion": "8.0",
+    "deviceName": "Pixel",
+    "driverUrl": "http://localhost:4723/wd/hub"
+}

@@ -1,9 +1,0 @@
-{
-    "platformName": "Android",
-    "platformVersion": "8.0",
-    "deviceName": "Pixel",
-    "app": "/Users/pavel_klindziukepam.com/PycharmProjects/taf/app/Chess Free.apk",
-    "appPackage": "uk.co.aifactory.chessfree",
-    "appActivity": ".ChessFreeActivity",
-    "driverUrl": "http://localhost:4723/wd/hub"
-}

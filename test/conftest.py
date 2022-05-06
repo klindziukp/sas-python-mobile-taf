@@ -16,6 +16,10 @@ def set_up():
 def one_time_set_up(request):
     """Mobile driver setup"""
     LOGGER.info("Running class set up")
+    # TODO: Implement device selection from available device pool
+    LOGGER.info("Selecting device from device pool")
+    # TODO: Implement app installation to selected device
+    LOGGER.info("Installing app to selected device")
     mobile_driver_factory = MobileDriverFactory()
     mobile_driver = mobile_driver_factory.get_mobile_driver_instance()
 
