@@ -1,6 +1,7 @@
 import sys
 
 from pageobject.main_page import MainPage
+from pytest_testrail.plugin import pytestrail
 import unittest
 import pytest
 import allure
@@ -17,6 +18,7 @@ class MainPageTestOther(unittest.TestCase):
 
     @allure.story('other main page story')
     @allure.severity(allure.severity_level.NORMAL)
+    @pytestrail.case('C2')  # test case if on TestRail
     def test_open_main_page_second(self):
         with allure.step('Navigate to main page other'):
             self.main_page.accept()
