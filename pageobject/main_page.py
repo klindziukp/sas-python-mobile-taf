@@ -7,10 +7,14 @@ class MainPage(BasePage):
         super().__init__(mobile_driver)
         self.mobile_driver = mobile_driver
 
+    def is_no_button_displayed(self):
+        self.is_element_displayed("uk.co.aifactory.chessfree:id/NoButton")
+
     def accept(self):
         self.click_on_element("uk.co.aifactory.chessfree:id/YesButton")
 
     def play(self):
         self.click_on_element("uk.co.aifactory.chessfree:id/ButtonPlay")
+
 
 

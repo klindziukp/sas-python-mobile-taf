@@ -10,16 +10,16 @@ sys.path.insert(0, '../..')
 
 
 @pytest.mark.usefixtures("one_time_set_up", "set_up")
-class MainPageTest(unittest.TestCase):
+class MainPageTestAnother(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def classSetup(self):
         self.main_page = MainPage(self.mobile_driver)
 
-    @allure.story('main page story')
+    @allure.story('another main page story')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytestrail.case('C1')
-    def test_open_main_page(self):
-        with allure.step('Navigate to main page'):
+    @pytestrail.case('C2')
+    def test_open_main_page_second(self):
+        with allure.step('Navigate to main page another'):
             self.main_page.accept()
-            self.main_page.play()
+            self.main_page.is_no_button_displayed()

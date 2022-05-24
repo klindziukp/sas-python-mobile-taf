@@ -18,8 +18,8 @@ class MainPageTestOther(unittest.TestCase):
 
     @allure.story('other main page story')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytestrail.case('C2')  # test case if on TestRail
-    def test_open_main_page_second(self):
+    @pytestrail.case('C3')
+    def test_open_main_page_third(self):
         with allure.step('Navigate to main page other'):
             self.main_page.accept()
             self.main_page.play()
